@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-info">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            Full Stack Application
+            CRUD USERS
           </Link>
           <button
             className="navbar-toggler"
@@ -22,7 +22,7 @@ export default function Navbar() {
           </button>
 
           <Link className="btn btn-outline-light" to="/adduser">
-            Add User
+            Ajouter User
           </Link>
         </div>
       </nav>

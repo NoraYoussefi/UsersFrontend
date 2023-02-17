@@ -43,13 +43,13 @@ export default function Home() {
                 <td>{user.date_of_birth}</td>
                 <td>
                   <Link
-                    className="btn btn-primary mx-2"
+                    className="btn btn-info mx-2"
                     to={`/viewuser/${user.id}`}
                   >
                     View
                   </Link>
                   <Link
-                    className="btn btn-outline-primary mx-2"
+                    className="btn btn-outline-info mx-2"
                     to={`/edituser/${user.id}`}
                   >
                     Edit
